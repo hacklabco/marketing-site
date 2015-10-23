@@ -16,13 +16,15 @@
 		<script src="assets/js/util.js"></script>
 		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 		<script src="assets/js/main.js"></script>
+    <!-- https://github.com/mattboldt/typed.js -->
 		<script src="assets/js/typed.min.js"></script>
 
 		<script>
 		  $(function(){
 		      $("#typed").typed({
-		        strings: ["word", "^2000 The code school you've <br> been waiting for."],
-		        typeSpeed: 30
+		        strings: ["The code school you've <br> been waiting for."],
+		        typeSpeed: 30,
+            startDelay: 8000
 		      });
 		  });
 		</script>
@@ -83,7 +85,7 @@
 							<img id="logo" src="assets/css/images/logo.svg" alt="HackLab Logo" />
 							<div id="inner-content">
                 <h1>
-									<div style="margin-bottom: 2em;padding-bottom: 2em;height: 3em;">
+									<div style="margin-bottom: 2em;padding-bottom: 1em;height: 3em;">
 									  <span id="typed"></span>
 									</div>
 								</h1>
@@ -91,7 +93,7 @@
 								bootcamp with a focus on<br />
 								javascript frameworks</p>
 								<ul class="actions">
-									<li><a href="#" class="button special">Apply Now</a></li>
+									<li><a href="#" style="margin-top: 2em;" class="button special">Apply Now</a></li>
 								</ul>
 							</div>
 						</div>
