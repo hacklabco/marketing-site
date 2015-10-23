@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="165px" height="51px" viewBox="0 0 165 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 1 + Rectangle 2 + Rectangle 15 + HACKLAB 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Rectangle-1-+-Rectangle-2-+-Rectangle-15-+-HACKLAB-8" sketch:type="MSLayerGroup" transform="translate(-30.000000, -6.000000)">
+            <g>
+                <g id="Rectangle-1-+-Rectangle-2-+-Rectangle-15" transform="translate(64.254237, 51.300000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-3" fill="#E9E4F2" x="37.1228814" y="0" width="56.6949153" height="5.7"></rect>
+                    <rect id="Rectangle-2" fill="#C8B9DE" x="17.5946328" y="0" width="37.7966102" height="5.7"></rect>
+                    <rect id="Rectangle-1" fill="#B09ACF" x="0" y="0" width="18.8983051" height="5.7"></rect>
+                </g>
+                <text id="HACKLAB" sketch:type="MSTextLayer" font-family="Monoid" font-size="33.1636364" font-weight="bold" sketch:alignment="middle" letter-spacing="7.19999981" fill="#E9E4F2">
+                    <tspan x="27.994546" y="31">HACKLA</tspan>
+                    <tspan x="177.318181" y="31">B</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
