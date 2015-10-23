@@ -12,7 +12,9 @@ h2 {
   font-size: 5vw;
 }
 
-h3 { font-size: 1.3em; }
+h3 .modal {
+  font-size: 1.3em;
+}
 
 .v-center {
   height: 100vh;
@@ -78,12 +80,23 @@ h3 { font-size: 1.3em; }
   border-bottom: 1px solid #ddd;
 }
 
+.modal-box header h2,
 .modal-box header h3,
 .modal-box header h4,
+.modal-box .modal-header h2,
 .modal-box .modal-header h3,
-.modal-box .modal-header h4 { margin: 0; }
+.modal-box .modal-p,
+.modal-box .modal-header h4 {
+  margin: 0;
+  color: #5126AB;
+  text-align: center;
+  padding-top: 2em;
+}
 
-.modal-box .modal-body { padding: 2em 1.5em; }
+.modal-box .modal-body {
+  padding: 2em 1.5em;
+  color: #5126AB;
+}
 
 .modal-box footer,
 .modal-box .modal-footer {
@@ -121,3 +134,5 @@ a.close:hover {
   -moz-transition: color 1s ease;
   transition: color 1s ease;
 }
+
+/*Custom*/
