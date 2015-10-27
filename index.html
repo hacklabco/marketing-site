@@ -71,9 +71,10 @@
       </header>
       <div class="modal-body">
         <form action="//formspree.io/apply@hacklab.co.za" method="POST">
-          Full name <input class="modal-form" type="text" name="name" required>
-          Cell number <input class="modal-form" type="text" name="cell" maxlength="10" required>
-          Email address <input class="modal-form" type="email" name="_replyto" required>
+          Full name
+          <input class="modal-form" type="text" name="name" required> Cell number
+          <input class="modal-form" type="text" name="cell" maxlength="10" required> Email address
+          <input class="modal-form" type="email" name="_replyto" required>
           <input class="form-button" type="submit" value="Send">
           <input type="hidden" name="_next" value="https://hacklab.co.za/thank-you.html" />
         </form>
@@ -240,7 +241,7 @@
             <p>Are you ready to have the ability to create any app that your amazing mind can think of? Fill out the application form and turn those ideas into reality.</p>
           </header>
           <ul class="actions vertical">
-            <li><a href="#" data-modal-id="popup" class="button fit special">Apply Now</a></li>
+            <li><a href="#" data-modal-id="popup" class="button fit special top">Apply Now</a></li>
             <li><a href="#" class="button fit info">Learn More</a></li>
           </ul>
         </div>
@@ -309,6 +310,15 @@
 
       $(window).resize();
 
+    });
+  </script>
+
+  <script charset="utf-8">
+    $(".top").click(function() {
+      $("html, body").animate({
+        scrollTop: 0
+      }, "slow");
+      return false;
     });
   </script>
 
